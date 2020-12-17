@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { OrganizacaoModel } from '../model/organizacao.model';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,16 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  organizacoes: Array<OrganizacaoModel> = [];
+  organizacao: OrganizacaoModel = new OrganizacaoModel;
+
+  slideOpts = {
+    initialSlide: 0,
+    speed: 400
+  };
+
+  constructor() {
+    
+  }
 
 }

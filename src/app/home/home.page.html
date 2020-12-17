@@ -11,9 +11,12 @@
     </ion-toolbar>
   </ion-header>
 
-  <div class="container">
-    <img 
-      src="https://wycliffe.org.br/wp-content/uploads/elementor/thumbs/44036983760_be6093cc7b_k-o52n8rp8b8emi8plf706ojaz2vdnyikl4d3ha70388.jpg"
-    />
+  <div class="container" *ngFor="let item of organizacoes">
+    <app-card-conteudo
+      [linkImagem]="item.linkImagem"
+      [nome]="item.nome"
+      [resumo]="item.resumo"
+      [linkSite]="item.linkSite">
+    </app-card-conteudo>
   </div>
 </ion-content>

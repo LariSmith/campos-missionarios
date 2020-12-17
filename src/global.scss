@@ -25,9 +25,23 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
+
 .container {
+    background-color: #d3d2d2;
+    margin: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.container p {
+    text-align: justify;
+}
+
+ion-card {
     width: 90%;
     height: 95%;
-    margin: auto;
-    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
 }
