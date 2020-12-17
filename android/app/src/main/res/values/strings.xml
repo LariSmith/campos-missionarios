@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">campos-missionarios</string>
+    <string name="title_activity_main">campos-missionarios</string>
+    <string name="package_name">com.campos.missionarios</string>
+    <string name="custom_url_scheme">com.campos.missionarios</string>
+</resources>

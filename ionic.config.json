@@ -1,5 +1,7 @@
 {
   "name": "campos-missionarios",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
